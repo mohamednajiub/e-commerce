@@ -1,8 +1,9 @@
 import React from 'react';
+import 'office-ui-fabric-react/dist/css/fabric.css';
 
 const Card = ({ product_image, product_name, currency, offer, price }) => {
 	return (
-		<div>
+		<div className='ms-Grid'>
 			<img src={product_image} title={product_name} alt={product_name} />
 
 			<div className='info'>
